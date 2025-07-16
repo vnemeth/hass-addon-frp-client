@@ -27,7 +27,7 @@ transport.useEncryption = true
 transport.useCompression = true
 localPort = 8123
 localIP = "0.0.0.0"
-remotePort = "your_remote_port"
+remotePort = your_remote_port
 
 # [proxies.plugin]
 # type = "https2http"
