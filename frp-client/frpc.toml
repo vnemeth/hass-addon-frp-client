@@ -8,10 +8,10 @@ log.to = "/share/frpc.log"
 log.level = "trace"
 log.maxDays = 3
 
-transport.tls.enable = true
-transport.tls.certFile = "/share/frp/fullchain.pem"
-transport.tls.keyFile = "/share/frp/privkey.pem"
-transport.tls.trustedCaFile = "/share/frp/fullchain.pem"
+# transport.tls.enable = true
+# transport.tls.certFile = "/share/frp/fullchain.pem"
+# transport.tls.keyFile = "/share/frp/privkey.pem"
+# transport.tls.trustedCaFile = "/share/frp/fullchain.pem"
 # transport.tls.serverName = "your_server_name"
 
 webServer.addr = "0.0.0.0"
