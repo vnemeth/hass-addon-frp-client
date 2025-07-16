@@ -22,7 +22,7 @@ webServer.password = "123456789"
 [[proxies]]
 name = "your_proxy_name"
 type = "http"
-# customDomains = ["your_domain"]
+customDomains = ["your_domain"]
 transport.useEncryption = false
 transport.useCompression = true
 localPort = 8123
