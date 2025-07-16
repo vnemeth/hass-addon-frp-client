@@ -27,7 +27,7 @@ options:
   webServerPassword: "123456789"
   customDomain: "example.com"
   proxyName: "homeassistant"
-  remmotePort: 6208
+  remmotePort: 8123
 schema:
   serverAddr: str
   serverPort: int
@@ -37,3 +37,4 @@ schema:
   webServerPassword: str
   customDomain: str
   proxyName: str
+  remotePort: str
