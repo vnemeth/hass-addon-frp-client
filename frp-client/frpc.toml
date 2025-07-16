@@ -9,9 +9,9 @@ log.level = "trace"
 log.maxDays = 3
 
 transport.tls.enable = true
-transport.tls.certFile = "/share/fullchain.pem"
-transport.tls.keyFile = "/share/privkey.pem"
-transport.tls.trustedCaFile = "/share/fullchain.pem"
+transport.tls.certFile = "/share/cptpi.frpc.crt"
+transport.tls.keyFile = "/share/cptpi.frpc.key"
+transport.tls.trustedCaFile = "/share/frp.ca.crt"
 transport.tls.serverName = "your_server_name"
 
 webServer.addr = "0.0.0.0"
